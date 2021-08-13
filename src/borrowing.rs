@@ -33,7 +33,6 @@ pub fn borrow() {
     let r1 = &s; // Immutable reference
     let r2 = &s; // Immutable reference
     // let r3 = &mut s; // ERROR: Because we already use s as a immutable reference in r1 and r2
-
     println!("2 Immutable reference :{}, {}", r1, r2);
 
     /*** Dangling References ***/
