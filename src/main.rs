@@ -7,6 +7,7 @@ mod control_flow;
 mod ownership;
 mod borrowing;
 mod r#struct;
+mod r#enum;
 
 fn main() {
     // variable::variable();
@@ -15,5 +16,6 @@ fn main() {
     // control_flow::control_flow();
     // ownership::ownership();
     // borrowing::borrow();
-    r#struct::r#struct();
+    // r#struct::r#struct();
+    r#enum::r#enum();
 }
