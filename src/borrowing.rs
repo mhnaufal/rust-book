@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn borrow() {
     /* Overview Borrowing / References
     * & = References value without taking the ownership

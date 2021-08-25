@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn control_flow() {
     let gpa: f64 = 3.9;
 

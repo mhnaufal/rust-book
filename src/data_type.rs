@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn data_type() {
     // Type annotation - TO convert from one type to another type
     let string_to_num: i32 = "23".parse().expect("Not a number!");

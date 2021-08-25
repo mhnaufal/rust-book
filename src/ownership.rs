@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn ownership() {
     /* Overview Memory in Rust
      * Each value has 'owner'

@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub fn variable () {
     // Variables are immutable by default
     let nim = 240601;

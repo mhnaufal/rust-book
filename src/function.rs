@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 /* 
 * Rust doesn't care where we put the invoked function
 * as long as we made it

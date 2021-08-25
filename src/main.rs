@@ -8,6 +8,7 @@ mod ownership;
 mod borrowing;
 mod r#struct;
 mod r#enum;
+mod vectors;
 
 fn main() {
     // variable::variable();
@@ -17,5 +18,6 @@ fn main() {
     // ownership::ownership();
     // borrowing::borrow();
     // r#struct::r#struct();
-    r#enum::r#enum();
+    // r#enum::r#enum();
+    vectors::vector();
 }
