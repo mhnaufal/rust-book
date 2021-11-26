@@ -1,4 +1,4 @@
-Get the hell out from here! Only study purpose repo.
+Get the fuck out of here! Just a repo for study!
 ### Inspired from
 [Rusty Book](https://doc.rust-lang.org/book/)
 
