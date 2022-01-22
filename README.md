@@ -31,3 +31,13 @@
 ```rust
 cargo run main.rs
 ```
+
+#### Module tree
+
+```rust
+cargo modules generate tree
+```
+
+```rust
+cargo modules generate tree --with-types
+```
