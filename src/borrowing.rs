@@ -31,7 +31,7 @@ pub fn borrow() {
 
 
     /* We can't combine immutable reference with mutable reference */
-    let mut s = String::from("hello");
+    let s = String::from("hello");
     let r1 = &s; // Immutable reference
     let r2 = &s; // Immutable reference
     // let r3 = &mut s; // ERROR: Because we already use s as a immutable reference in r1 and r2

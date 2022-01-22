@@ -11,7 +11,7 @@ struct User {
 struct Color(u32, u32, u32);
 
 /* Unit-like struct */
-struct empty();
+struct Empty();
 
 #[derive(Debug)]
 struct Rectangle {
@@ -52,7 +52,7 @@ pub fn r#struct() {
 
     user_1.status = false;
 
-    let black = Color(0, 0, 0);
+    let _black = Color(0, 0, 0);
 
     let mut rect_1 = Rectangle::square(2);
     println!("Create rect: {:#?}", rect_1);
