@@ -11,13 +11,13 @@ pub fn control_flow() {
         println!("Keep it up!: {}", gpa);
     }
 
-    /* if inside let
-     * Must be expression
+    /* 'if' inside let
+     * must be an expression
      */
     let is_summa_cumlaude = if gpa == 4.0 { true } else { false };
     println!("Am I cumlaude? {:?}", is_summa_cumlaude);
 
-    /* Loop */
+    /* 'Loop' loop */
     let mut counter = 0;
     let value = loop {
         counter += 1;
@@ -27,9 +27,11 @@ pub fn control_flow() {
         }
     };
 
-    println!("Loop: {:?}", value);
+    println!("Loop occured: {:?}", value);
 
-    /* For */
+    println!("----------------------------------------------------");
+
+    /* 'For' loop */
     let days = [
         "Monday",
         "Tuesday",
@@ -44,10 +46,33 @@ pub fn control_flow() {
         println!("Today is {}", day);
     }
 
+    println!("----------------------------------------------------");
+
     /* Reverse (polarity?) */
-    for day in (1..5).rev() {
-        println!("Number in backward {}", day);
+    let arr = [1, 2, 3, 4, 5];
+    println!("{:?}", arr);
+    for day in arr.iter().rev() {
+        println!("Reverse iteration --> {}", day);
     }
+
+    println!("----------------------------------------------------");
+
+    /* Break
+     * you can return value from a break statement
+     */
+    let mut value = 0;
+    let new_value = loop {
+        value += 1;
+
+        print!("{} ", value);
+
+        if value * 3 == 9 {
+            break value; // set the value of variable new_value to 'value' from break statement
+        }
+    };
+    println!("\nNew value: {}", new_value);
+
+    println!("----------------------------------------------------");
 
     /* Challenge */
     // (1) Convert temperature
@@ -62,7 +87,10 @@ pub fn control_flow() {
         temperature
     };
 
-    println!("Temperature before: {} and after {}", temperature, new_temperature);
+    println!(
+        "[1] Temperature before: {} and after: {}",
+        temperature, new_temperature
+    );
 
     // (2) Generate nth fibonacci number
     // 1 1 2 3 5 8 13 21 34
@@ -74,7 +102,7 @@ pub fn control_flow() {
         counter += 1;
 
         if counter == 5 {
-            break fibo_now
+            break fibo_now;
         }
 
         let temp = fibo_now;
@@ -82,5 +110,5 @@ pub fn control_flow() {
         fibo_prev = temp;
     };
 
-    println!("Fibonacci: {}", result);
+    println!("[2] Fibonacci: {}", result);
 }
