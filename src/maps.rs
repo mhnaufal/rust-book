@@ -26,6 +26,5 @@ pub fn map() {
 
   /* Updatning the HashMap */
   scores.insert(String::from("Blue"), 33);
- println!("New Blue {:#?}", scores.get(&String::from("Blue")).unwrap());
-
+  println!("New Blue {:#?}", scores.get(&String::from("Blue")).unwrap());
 }

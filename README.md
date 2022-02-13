@@ -30,6 +30,8 @@
 
 - [String](https://github.com/mhnaufal/rust-book/blob/main/src/strings.rs) 🔰 [Book](https://doc.rust-lang.org/book/https://doc.rust-lang.org/book/ch08-02-strings.html)
 
+- [HashMap](https://github.com/mhnaufal/rust-book/blob/main/src/maps.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+
 #### Run
 
 ```rust
