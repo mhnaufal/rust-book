@@ -30,7 +30,11 @@
 
 - [String](https://github.com/mhnaufal/rust-book/blob/main/src/strings.rs) 🔰 [Book](https://doc.rust-lang.org/book/https://doc.rust-lang.org/book/ch08-02-strings.html)
 
-- [HashMap](https://github.com/mhnaufal/rust-book/blob/main/src/maps.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+[HashMap](https://github.com/mhnaufal/rust-book/blob/main/src/maps.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
+
+[Error](https://github.com/mhnaufal/rust-book/blob/main/src/errors.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+- Rust has two type of error, the recoverable one using Result<T, E> enum and unrecoverable using panic!
+- When panic! happen, Rust will do _unwinding_ or walks back up the stack and cleans it
 
 #### Run
 
