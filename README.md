@@ -33,8 +33,23 @@
 [HashMap](https://github.com/mhnaufal/rust-book/blob/main/src/maps.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
 
 [Error](https://github.com/mhnaufal/rust-book/blob/main/src/errors.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+
 - Rust has two type of error, the recoverable one using Result<T, E> enum and unrecoverable using panic!
 - When panic! happen, Rust will do _unwinding_ or walks back up the stack and cleans it
+
+[Generic](https://github.com/mhnaufal/rust-book/blob/main/src/generic.rs) [Book](https://doc.rust-lang.org/stable/book/ch10-00-generics.html)
+
+- Generics are abstract stand-ins for concrete types or other properties
+-
+
+```rust
+fn largest<T>(list: &[T]) -> T {
+```
+
+The function _largest_ is generic over some type **T**. This function has one _parameter_ named _list_, which is a slice of values of type **T**. The largest function will _return_ a value of the same type **T**.
+
+- Usually combined with Trait and Lifetime
+
 
 #### Run
 
