@@ -1,19 +1,20 @@
 #![allow(dead_code)]
 
-mod variable;
-mod data_type;
-mod function;
-mod control_flow;
-mod ownership;
 mod borrowing;
-mod r#struct;
-mod r#enum;
-mod vectors;
 mod challenges;
+mod control_flow;
+mod data_type;
+mod r#enum;
+mod function;
+mod ownership;
+mod r#struct;
+mod variable;
+mod vectors;
 use challenges::armstrong;
-mod strings;
-mod maps;
 mod errors;
+mod generic;
+mod maps;
+mod strings;
 
 fn main() {
     variable::variable();
@@ -30,4 +31,5 @@ fn main() {
     strings::strings();
     maps::map();
     errors::errors();
+    generic::generic();
 }
