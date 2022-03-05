@@ -50,6 +50,11 @@ The function _largest_ is generic over some type **T**. This function has one _p
 
 - Usually combined with Trait and Lifetime
 
+[Trait](https://github.com/mhnaufal/rust-book/blob/main/src/trait.rs) [Book](https://doc.rust-lang.org/stable/book/ch10-02-traits.html)
+
+- **Trait** are similiar to **interface** in other programming language
+- Declare a function/method/implementation name without giving the body function
+- Trait can also has default implementation
 
 #### Run
 
