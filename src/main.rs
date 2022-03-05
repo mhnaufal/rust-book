@@ -15,6 +15,7 @@ mod errors;
 mod generic;
 mod maps;
 mod strings;
+mod traits;
 
 fn main() {
     variable::variable();
@@ -26,10 +27,11 @@ fn main() {
     r#struct::r#struct();
     r#enum::r#enum();
     vectors::vector();
-    challenges::hello_from_challenges();    // hello_from_challenge() placed inside the mod.rs file
-    armstrong::is_armstrong_number(153);  // is_armstrong_number() placed inside the armstrong.rs file
+    challenges::hello_from_challenges(); // hello_from_challenge() placed inside the mod.rs file
+    armstrong::is_armstrong_number(153); // is_armstrong_number() placed inside the armstrong.rs file
     strings::strings();
     maps::map();
     errors::errors();
     generic::generic();
+    traits::traits();
 }
