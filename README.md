@@ -55,6 +55,7 @@ The function _largest_ is generic over some type **T**. This function has one _p
 - **Trait** are similiar to **interface** in other programming language
 - Declare a function/method/implementation name without giving the body function
 - Trait can also has default implementation
+- Function can also take type of trait for their parameter(s)
 
 #### Run
 
