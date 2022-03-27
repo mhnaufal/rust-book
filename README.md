@@ -67,6 +67,7 @@ fn largest<T>(list: &[T]) -> T {
 
 - Rust provide built-in functionallity for testing, whether unit testing or even integration testing
 - Keywords used, **assert**, **assert_eq**, **assert_ne**
+- **assert** will evaluates to boolean
 
 #### Run
 
