@@ -13,8 +13,10 @@ mod vectors;
 use challenges::armstrong;
 mod errors;
 mod generic;
+mod lifetime;
 mod maps;
 mod strings;
+mod tests;
 mod traits;
 
 fn main() {
@@ -34,4 +36,6 @@ fn main() {
     errors::errors();
     generic::generic();
     traits::traits();
+    lifetime::lifetimes();
+    tests::tests();
 }
