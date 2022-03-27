@@ -63,6 +63,11 @@ fn largest<T>(list: &[T]) -> T {
 - It's only about Scope
 - Syntax => 'a, &'b
 
+15. [Test](https://github.com/mhnaufal/rust-book/blob/main/src/tests.rs) 🔰 [Book](https://doc.rust-lang.org/stable/book/ch11-00-testing.html)
+
+- Rust provide built-in functionallity for testing, whether unit testing or even integration testing
+- Keywords used, **assert**, **assert_eq**, **assert_ne**
+
 #### Run
 
 ```rust
