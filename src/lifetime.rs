@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![allow(unused_assignments)]
 
 /* Lifetime
 * Scope area whcich is reference is still valid
