@@ -41,3 +41,18 @@ fn larger_can_hold_smaller() {
 
     assert!(larger.is_can_hold(&smaller));
 }
+
+fn greeting(name: &str) -> String {
+    format!("Good morning")
+}
+
+#[test]
+fn greeting_test() {
+    let result = greeting("Batman");
+
+    assert!(
+        result.contains("Batman"),
+        "`greeting` function should contain name, value was `{}`",
+        result
+    );
+}
