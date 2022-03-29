@@ -56,3 +56,13 @@ fn greeting_test() {
         result
     );
 }
+
+/* Result<T, E> in test instead of panicking */
+#[test]
+fn it_works() -> Result<(), String> {
+    if 1 + 1 == 2 {
+        Ok(())
+    } else {
+        Err(String::from("1 + 1 should be equal 2"))
+    }
+}
