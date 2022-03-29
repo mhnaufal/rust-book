@@ -69,6 +69,7 @@ fn largest<T>(list: &[T]) -> T {
 - Keywords used, **assert**, **assert_eq**, **assert_ne**
 - **assert** will evaluates to boolean
 - We can add a custom error failed test message
+- We can use **Result<T, E>** type in test
 
 #### Run
 
