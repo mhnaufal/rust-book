@@ -70,6 +70,9 @@ fn largest<T>(list: &[T]) -> T {
 - **assert** will evaluates to boolean
 - We can add a custom error failed test message
 - We can use **Result<T, E>** type in test
+- Tests are run parallel or consecutively by default
+- In order to run in non parallel give the number of threads with **--test-threads=1** flag
+- We also can provide the test function name in order to run the particular test and there is also an **#[ignore]** macro
 
 #### Run
 
