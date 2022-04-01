@@ -43,7 +43,7 @@ fn larger_can_hold_smaller() {
 }
 
 fn greeting(name: &str) -> String {
-    format!("Good morning")
+    format!("Good morning {}!", &name)
 }
 
 #[test]
