@@ -75,6 +75,11 @@ fn largest<T>(list: &[T]) -> T {
 - We also can provide the test function name in order to run the particular test and there is also an **#[ignore]** macro
 - Integration test has already provided default by Rust
 
+16. [Functional Programming](https://github.com/mhnaufal/rust-book/blob/main/src/functional.rs) 🔰 [Book](https://doc.rust-lang.org/stable/book/ch13-01-closures.html)
+
+- Rust provide **clousre** or function as a varible / first class citizen
+- Use the pipe symbol `| |` to create a parameters for the closure
+
 #### Run
 
 ```rust
