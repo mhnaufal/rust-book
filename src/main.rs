@@ -1,4 +1,6 @@
 #![allow(dead_code)]
+#![allow(unused_variables)]
+#![allow(unused_imports)]
 
 mod borrowing;
 mod challenges;
@@ -12,6 +14,7 @@ mod variable;
 mod vectors;
 use challenges::armstrong;
 mod errors;
+mod functional;
 mod generic;
 mod lifetime;
 mod maps;
@@ -37,5 +40,6 @@ fn main() {
     generic::generic();
     traits::traits();
     lifetime::lifetimes();
-    tests::tests();
+    // tests::tests();
+    functional::functional();
 }
