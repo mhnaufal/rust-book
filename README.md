@@ -79,6 +79,7 @@ fn largest<T>(list: &[T]) -> T {
 
 - Rust provide **clousre** or function as a varible / first class citizen
 - Use the pipe symbol `| |` to create a parameters for the closure
+- Closure can be use to catch the environment of the closure as long its in the same block
 
 #### Run
 
