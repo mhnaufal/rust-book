@@ -26,4 +26,24 @@ pub fn functional() {
     let is_eq_out = |mtch| mtch == out;
 
     assert!(is_eq_out(13));
+
+    /* Iterators */
+    let v1 = vec![1, 2, 3];
+
+    let v1_iter = v1.iter();
+
+    for val in v1_iter {
+        println!("Got: {}", val);
+    }
+
+    // Iterator implement trait with `next` method to implement
+    #[test]
+    fn iterator_demo() {
+        let v1 = vec![3, 2, 1];
+
+        let mut v1_iter = v1.iter();
+
+        assert_eq!(v1_iter.next(), Some(&3));   // get the next about of the iterator
+        assert_eq!(Some(&2), v1_iter.next());
+    }
 }
