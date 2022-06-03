@@ -1,4 +1,4 @@
-🦀 Nothing special here!
+# 🦀 Nothing special here!
 
 ### Inspired from
 
@@ -12,7 +12,29 @@
 
 1. [Variable](https://github.com/mhnaufal/rust-book/blob/main/src/variable.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
 
+- Rust variable immutable by default
+- To **shadowing** a variable, declare a variable with the same name with the one that we want shadowed
+
+```rust
+let point = 32;
+
+// shadowing
+let point = 23.1;
+```
+
+- **Casting** data type can be done by using the `as` keyword
+
+```rust
+let point = (32 as f32);
+```
+
 2. [Data type](https://github.com/mhnaufal/rust-book/blob/main/src/data_types.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+
+- We usually to declare the data type of a variable explicitly **(Type annotation)**
+- Rust allows to use underscore **\_** in numbers to make read the code easier
+- Rust will automatically call panic if _integer overflow_ happen, but when compiling with release mode, Rust will not call panic, instead it will performs _two's complement wrapping_
+- **Tuple** holds a bunch of elements with different types
+- **Array** holds a bunch of elements with the same type
 
 3. [Function](https://github.com/mhnaufal/rust-book/blob/main/src/function.rs) 🔰 [Book](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
 
@@ -81,6 +103,12 @@ fn largest<T>(list: &[T]) -> T {
 - Use the pipe symbol `| |` to create a parameters for the closure
 - Closure can be use to catch the environment of the closure as long its in the same block
 - Iterator in Rust is implemented in Trait
+
+#### Projects
+
+List of me trying create a project in Rust
+
+[Link to HERE!]()
 
 #### Run
 
