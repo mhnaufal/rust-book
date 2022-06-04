@@ -108,7 +108,7 @@ fn largest<T>(list: &[T]) -> T {
 
 List of me trying create a project in Rust
 
-[Link to HERE!]()
+[Link to HERE!](https://github.com/mhnaufal/rust-book/tree/main/src/projects)
 
 #### Run
 
