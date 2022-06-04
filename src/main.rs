@@ -15,7 +15,7 @@ mod variable;
 mod vectors;
 
 use challenges::armstrong;
-use projects::shell;
+use projects::shell::shell;
 
 mod errors;
 mod functional;
@@ -59,7 +59,7 @@ fn main() {
     functional::functional();
 
     // PROJECTS
-    shell::shell();
+    shell::main_shell();
 
     /* CHALLENGES */
     challenges::hello_from_challenges(); // hello_from_challenge() placed inside the mod.rs file
