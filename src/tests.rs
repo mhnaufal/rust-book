@@ -43,7 +43,7 @@ fn larger_can_hold_smaller() {
 }
 
 pub fn greeting(name: Option<&str>) -> String {
-    format!("Good morning {}!", name.unwrap())
+    format!("Good morning {}!", name.unwrap_or("Anonymous"))
 }
 
 #[test]
