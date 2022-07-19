@@ -16,6 +16,7 @@ mod vectors;
 
 use challenges::armstrong;
 use projects::shell::shell;
+use projects::todos::todos;
 
 mod errors;
 mod functional;
@@ -53,13 +54,14 @@ fn main() {
     lifetime::lifetimes();
 
     /* CHAPTER 11 */
-    // tests::tests();
+    tests::greeting(Some("Joker"));
 
     /* CHAPTER 13 */
     functional::functional();
 
     // PROJECTS
     shell::main_shell();
+    todos::main_todos();
 
     /* CHALLENGES */
     challenges::hello_from_challenges(); // hello_from_challenge() placed inside the mod.rs file
