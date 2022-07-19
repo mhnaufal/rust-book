@@ -42,13 +42,13 @@ fn larger_can_hold_smaller() {
     assert!(larger.is_can_hold(&smaller));
 }
 
-fn greeting(name: &str) -> String {
-    format!("Good morning {}!", &name)
+pub fn greeting(name: Option<&str>) -> String {
+    format!("Good morning {}!", name.unwrap())
 }
 
 #[test]
 fn greeting_test() {
-    let result = greeting("Batman");
+    let result = greeting(Some("Batman"));
 
     assert!(
         result.contains("Batman"),
